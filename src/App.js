@@ -30,10 +30,7 @@ function App() {
           HolaMundo(nombre,25)
         }   
       <section className="componentes">
-        <MiComponente />
-        <MiComponente />
-        <MiComponente />
-        <MiComponente />
+        <MiComponente />  
       </section>    
       </header>
     </div>
