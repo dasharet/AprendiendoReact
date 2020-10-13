@@ -13,7 +13,7 @@ class Formulario extends Component {
 
     state = {
         user: {}
-    }
+    };
 
     recibirFormulario = (e) => {
         e.preventDefault();
