@@ -8,7 +8,7 @@ class Home extends Component {
         return (
             <div id="home">
                 <Slider
-                    title="Bienvenido al curso de React con Vitor Robles de victorroblesweb.es"
+                    title="Bienvenido a mi blog"
                     btn='Ir al blog'
                     size="slider-big"
                 />

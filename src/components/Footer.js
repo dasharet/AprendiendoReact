@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const Footer = () => {
     return (
         <footer id="footer">
             <div className="center">
                 <p>
-                    &copy; Master en frameworks para JavaScript de victorroblesweb.es
+                    &copy; Blog Beta by Joselyn
             </p>
             </div>
         </footer>

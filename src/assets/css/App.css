@@ -105,8 +105,8 @@ body{
   text-shadow: 0px 0px 5px #444;
 
   /*DEGRADADO CSS */
-  background: rgba(73,155,234,1);
-  background: -moz-radial-gradient(center, ellipse cover, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+  background: rgb(73, 234, 146);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(73,155,234,1) 0%, rgb(56, 126, 206) 100%);
   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,1)));
   background: -webkit-radial-gradient(center, ellipse cover, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
   background: -o-radial-gradient(center, ellipse cover, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
@@ -268,6 +268,12 @@ textarea{
 
 input[type="submit"]{
   margin-top: 15px;
+}
+
+.thumb{
+  display: block;
+  width: 170px;
+  float:left;
 }
 
 .radibuttons{
