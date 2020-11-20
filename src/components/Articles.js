@@ -57,11 +57,13 @@ class Articles extends Component {
 
                 });
             });
+
+
     }
 
     getArticles = () => {
 
-        axios.get(this.url + "articles")
+      axios.get(this.url + "articles")
             .then(res => {
 
                 this.setState({

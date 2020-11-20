@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import logo from '../assets/images/logo.svg';
+import logo from '../assets/images/mundo.svg';
 import { NavLink } from 'react-router-dom';
 
 class Header extends Component {
@@ -9,7 +9,7 @@ class Header extends Component {
                 <div className="center">
                     {/* LOGO */}
                     <div id="logo">
-                        <img src="#" className="app-logo" alt="Logotipo" />
+                        <img src={logo} className="app-logo" alt="Logotipo" />
                         <span id="brand">
                             <strong>Blog</strong>Beta
                     </span>

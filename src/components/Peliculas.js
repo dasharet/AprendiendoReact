@@ -10,7 +10,7 @@ class Peliculas extends Component {
 
         var { peliculas } = this.state;
         //var random = Math.floor(Math.random() * 3);
-        peliculas[0].titulo = "Batman Begins";
+       // peliculas[0].titulo = "Batman Begins";
 
         this.setState({
             peliculas: peliculas
@@ -32,11 +32,11 @@ class Peliculas extends Component {
                     image: 'https://www.nme.com/wp-content/uploads/2020/05/batman-v-superman.jpg'
                 },
                 {
-                    titulo: 'Gran Torino',
+                    titulo: 'Pelicula 2',
                     image: 'https://occ-0-92-1722.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABUxEcHdgRHUvXT358XVnqQpFizU3K7OqCctyUYjC_dBDq0wJwrY7nnEcrmWE0XNSg3qyLO-6C19GsFK0NVc6WZvaOBlN.jpg?r=5f0'
                 },
                 {
-                    titulo: 'Looper',
+                    titulo: 'Pelicula 3',
                     image: 'https://resizing.flixster.com/R2ZmFpqewdd041o2FJclazfygaI=/740x380/v1.bjsxOTMwMTEwO2o7MTg2MDc7MTIwMDsxOTU1OzEwNzY'
                 }
             ],
@@ -86,11 +86,11 @@ class Peliculas extends Component {
                 <div className="center">
                     <div id="content" className="peliculas">
                         <h2 className="subheader">Listado de Peliculas</h2>
-                        <p>Seleccion e las peliculas favoritas de {this.state.nombre}</p>
-                        <p>
+                        <p>Seleccione las peliculas favoritas</p>
+                       {/*  <p>
                             <button onClick={this.cambiarTitulo}>Camiar Titulo1</button>
                         </p>
-                        {/*
+                       
                     this.state.favorita.titulo ? (
                     <p className="favorita" style={pStyle}>
                         <strong>La pelicula favorita es: </strong>
